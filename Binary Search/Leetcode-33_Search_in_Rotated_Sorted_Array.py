@@ -1,4 +1,7 @@
 """
+Runtime 16 ms - Beats 98.86%
+Memory 13.8 MB - Beats 15.14%
+
 Search an element in a circularly sorted array
 
 Given a circularly sorted integer array, search an element in it. Assume there are no duplicates in the array, and the rotation is in the anti-clockwise direction.
