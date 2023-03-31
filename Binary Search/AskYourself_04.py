@@ -7,7 +7,6 @@ output : Pivot element is at index : 2
 Input : 9, 10, 11, 5, 7, 8
 output : Pivot element is at index : 3
 """
-
 def findPivot ( nums ):
     
     start =  0
