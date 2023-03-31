@@ -3,6 +3,9 @@ Find Pivot Element of a Sorted and Rotated Array.
 
 Input : 9, 10, 1, 2, 3, 4, 5, 6
 output : Pivot element is at index : 2
+
+Input : 9, 10, 11, 5, 7, 8
+output : Pivot element is at index : 3
 */
 
 class Main {
