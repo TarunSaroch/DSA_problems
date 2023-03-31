@@ -27,13 +27,13 @@ def solution( nums, target ):
             return mid
         
         if ( nums[ mid ] <= nums[ end ]):
-            if ( target > nums[ mid ]  and target <= nums[ end ]):
+            if ( target >= nums[ mid ]  and target <= nums[ end ]):
                 start = mid + 1
             else:
                 end = mid - 1
         
         else:
-            if ( target < nums[ mid ] and target >= nums[ start ]):
+            if ( target <= nums[ mid ] and target >= nums[ start ]):
                 end = mid - 1
             else:
                 start = mid + 1
