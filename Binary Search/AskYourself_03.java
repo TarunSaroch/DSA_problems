@@ -41,7 +41,7 @@ class HelloWorld {
     public static int LastOcc(int [] nums, int target){
         int start = 0;
         int end = nums.length - 1;
-        int result = 0;
+        int result = -1;
         while ( start <= end ){
             
             int mid = start + ( end - start ) / 2;
