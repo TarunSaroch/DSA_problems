@@ -23,8 +23,7 @@ class HelloWorld {
             int mid = start + ( end - start ) / 2;
             if ( target == nums[mid] ){
                 return mid;
-            }
-            
+            }            
             if ( nums[ mid ] <= nums[ end ]){
                 if ( target >= nums[ mid ] && target <= nums[ end ]){
                     start = mid + 1;
