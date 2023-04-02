@@ -24,14 +24,12 @@ def solution( nums, target ):
         mid = start + ( end - start ) // 2
         
         if ( target == nums[ mid ] ):
-            return mid
-        
+            return mid        
         if ( nums[ mid ] <= nums[ end ]):
             if ( target >= nums[ mid ]  and target <= nums[ end ]):
                 start = mid + 1
             else:
                 end = mid - 1
-        
         else:
             if ( target <= nums[ mid ] and target >= nums[ start ]):
                 end = mid - 1
