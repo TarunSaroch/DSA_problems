@@ -12,6 +12,7 @@ Output: Element found at index 2
  
 Input: nums = [9, 10, 2, 5, 6, 8]  target = 5
 Output: Element found at index 3
+
 */
 class HelloWorld {
     public static int solution(int [] nums, int target){
